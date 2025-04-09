@@ -1,0 +1,165 @@
+FoodicsCRM API Endpoints
+
+Restaurant Management
+
+- Add Foodics Restaurant
+  Method: POST
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/AddFoodicsRestaurant
+
+- Get Single Restaurant
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/GetSingleRestaurant/{restaurantId}
+
+- Get Restaurant Main Groups Dropdown
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/GetRestaurantMainGroupsDropDown/{restaurantId}
+
+- Update Foodics Restaurant
+  Method: PUT
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/UpdateFoodicsRestaurant
+
+- Delete Foodics Restaurant
+  Method: DELETE
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/DeleteFoodicsRestaurant/{Id}
+
+- Delete Menu Group Restaurant
+  Method: DELETE
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/DeleteMenuGroupRestaurant/{Id}
+
+- Upload Foodics Restaurant Images
+  Method: POST
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/UploadFoodicsRestaurantImages
+
+- Get Foodics Restaurant Details
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/GetFoodicsRestaurantDetails/{FoodicsRestaurantId}
+
+- Get Foodics Restaurant By Menu Types
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/GetFoodicsRestauranByMenuTypes
+
+- Get Menu Type Dropdown List
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/GetMenuTypeDropDownlist
+
+- Get Foodics Management System Dropdown List
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/GetFoodicsManagementSystemDropDownlist
+
+- Get All Restaurants by Location
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/GetAllRestaurant/{locationId}
+
+- Get All Restaurants Dropdown by Location
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/GetAllRestaurantDropDown/{locationId}
+
+Order Management
+
+- Get Order Details
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/GetOrderDetails/{orderId}
+
+- Get Order with Pagination Details
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/GetOrderWithPagnationDetails/{orderId}
+
+- Get All Pre Orders
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/GetAllPreOrdre
+
+- Get All Pre Orders with Pagination
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/GetAllPreOrdreWithPagnation
+
+Menu Management
+
+- Sync Restaurant Menu
+  Method: PUT
+  Endpoint: /api/CRM/v{version}/FoodicsCRM/SyncRestaurantMenu/{restaurantId}
+
+Product Management
+
+- Get Single Product
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetProduct/{productId}
+
+- Get All Products of a Restaurant
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetAllProducts/{restaurantId}
+
+Customer Management
+
+- Register Customer to a Restaurant
+  Method: POST
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/RegisterCustomer/{restaurantId}
+
+- Get Customer of a Restaurant by Id
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetCustomer/{restaurantId}
+
+Order and Branch Management
+
+- Get All Orders of a Restaurant
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetAllOrders/{restaurantId}
+
+- Get Single Order of a Restaurant by Id
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetOrder/{restaurantId}
+
+- Get All Branches of a Restaurant
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetAllBranches/{restaurantId}
+
+- Get All Branches Dropdown
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetAllBranchesDropDown/{restaurantId}
+
+Branch and Table Management
+
+- Create New Table
+  Method: POST
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/CreateTable/{restaurantId}
+
+- Get All Tables of a Restaurant
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetAllTables/{restaurantId}
+
+- Get All Section Tables of a Restaurant
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetAllSectionTables/{restaurantId}
+
+- Get Single Table of a Restaurant by Id
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetTable/{restaurantId}
+
+Section Management
+
+- Create New Section
+  Method: POST
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/CreateSection/{restaurantId}
+
+- Get All Sections of a Restaurant
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetAllSections/{restaurantId}
+
+Payment Methods
+
+- Get All Payment Methods of a Restaurant
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetAllPaymentMethods/{restaurantId}
+
+Miscellaneous
+
+- Get All Main Menu Groups
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetAllMainMenuGroups/{restaurantId}
+
+- Get All Main Group Products
+  Method: GET
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetAllMainGroupProducts/{restaurantId}
+
+- Get All Main Group Products Without Name
+  Method: POST
+  Endpoint: /api/CRM/v{version}/FoodicsIntegration/GetAllMainGroupProductsWithoutName
